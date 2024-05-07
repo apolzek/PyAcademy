@@ -9,9 +9,12 @@ This repository contains the code for PyAcademy - Mastering ELK with Python
 
 ```bash
 bin/elasticsearch-reset-password -u elastic
-
-bin/logstash -f
+bin/logstash -f /home/apolzek/Workdir/github.com/apolzek/PyAcademy/logstash/logstash-simple.conf
+bin/kibana
 ```
+
+Update password on logstash-simple.conf file
+Use elasticsearch token to configure kibana
 
 ```bash
 python3 -m venv venv

@@ -1,0 +1,5 @@
+load_dotenv
+flask
+flask-restx
+packages
+elasticsearch
